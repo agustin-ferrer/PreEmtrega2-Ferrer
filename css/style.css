@@ -1,12 +1,12 @@
 
-li{
+.inicio{
     margin-left: 100px;
     margin-right: 100px;
     margin-top: 50px;
 font-family: 'Roboto', sans-serif;
 }
 
-footer{background-color: gray;}
+
 
 ul{ 
     list-style: none;
@@ -28,4 +28,44 @@ li{
     margin-bottom: 100px;
     display: flex;
     justify-content: space-around;
+}
+/*footer*/
+footer{
+    background-color: lightgray;
+    width: 100%;
+    display: flex;
+    justify-content: space-between ;
+
+}
+.primero{
+    display: flex;
+    justify-content: space-between ;
+    
+
+}
+.segundo{
+    display: flex;
+    justify-content: space-between ;
+    
+}
+.tercero{
+    display: flex;
+    justify-content: space-between ;
+    
+}
+footer p{
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
+footer ul{ 
+    display: flex;
+    flex-direction: column;
+    justify-content:start;
+}
+footer li{
+    margin-bottom: 40px;
+}
+.contacto p{
+    margin-right: 30px;
 }

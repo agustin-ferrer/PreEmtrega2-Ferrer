@@ -1,0 +1,29 @@
+
+.productos{
+    padding-top: 200px; 
+    margin-bottom: 100px;
+}
+.remeras{
+    display: flex;
+    justify-content: space-between ;
+
+}
+.pantalones{
+    display: flex;
+    justify-content: space-between ;
+
+}
+.vestidos{
+    display: flex;
+    justify-content: space-between ;
+
+}
+.abrigos{
+    display: flex;
+    justify-content: space-between ;
+
+}
+
+.articulos_2{
+    background-color: rgb(244, 160, 69);
+}

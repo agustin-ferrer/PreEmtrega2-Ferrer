@@ -1,12 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;1,700&display=swap');
+*{
+    font-family: 'Roboto', sans-serif;
+    
+}
 
+body{
+    background-image: url(../img/fondo2.avif);
+}
 .inicio{
     margin-left: 100px;
     margin-right: 100px;
     margin-top: 50px;
-font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    border: red solid;
+}
+.encabezado{
+    width: 100%;
+    position: fixed;
+    background-color: rgb(244, 160, 69);
+    border: red solid;
+}
+.carrito{
+    display: flex;
+    justify-content: center;
+    
+    margin-top: 1px;
 }
 
-
+.inicio_2{
+    margin-top: 5px;
+    border: red solid;
+}
 
 ul{ 
     list-style: none;
@@ -24,14 +48,25 @@ li{
     float: left;
 }
 .articulos{
-    margin-top: 100px;
+    padding-top: 200px;
     margin-bottom: 100px;
     display: flex;
     justify-content: space-around;
 }
+.articulos article{
+    background-color: rgb(244, 160, 69);
+}
+.video{
+    display: flex;
+    justify-content: center;
+}
+.videoo{
+    width: 100%;
+}
+
 /*footer*/
 footer{
-    background-color: lightgray;
+    background-color: rgb(244, 160, 69);
     width: 100%;
     display: flex;
     justify-content: space-between ;
@@ -39,20 +74,46 @@ footer{
 }
 .primero{
     display: flex;
-    justify-content: space-between ;
-    
-
+    width: 33%;
+    justify-content: center;
+}
+.redes{
+    margin-right: 16%;
 }
 .segundo{
     display: flex;
-    justify-content: space-between ;
+    width: 33%;
+   
+    justify-content: center;
     
 }
 .tercero{
     display: flex;
-    justify-content: space-between ;
+    width: 33%;
+    
     
 }
+.contacto{
+    margin-right: 50px;
+    
+}
+.m_pago p{
+    text-align: center;
+    
+
+}
+.tarjeta_1{
+    height: 65px;
+}
+.tarjeta_2{
+    height: 65px;
+}
+.tarjeta_3{
+    height: 65px;
+    
+    
+}
+
 footer p{
     margin-left: 30px;
     margin-bottom: 20px;
@@ -69,3 +130,4 @@ footer li{
 .contacto p{
     margin-right: 30px;
 }
+

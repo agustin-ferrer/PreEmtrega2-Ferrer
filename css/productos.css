@@ -5,25 +5,54 @@
 }
 .remeras{
     display: flex;
-    justify-content: space-between ;
+    justify-content: space-evenly ;
 
+}
+.titulo_producto{
+    text-align: center;
+    text-decoration: underline;
 }
 .pantalones{
     display: flex;
-    justify-content: space-between ;
+    justify-content: space-evenly ;
 
 }
 .vestidos{
     display: flex;
-    justify-content: space-between ;
+    justify-content: space-evenly ;
 
 }
 .abrigos{
     display: flex;
-    justify-content: space-between ;
+    justify-content: space-evenly ;
 
 }
 
 .articulos_2{
     background-color: rgb(244, 160, 69);
+}
+@media (max-width: 767px) {
+    .articulos_2{
+        margin-bottom: 10px;
+    }
+    .remeras{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .abrigos{
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+    .pantalones{
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+    .vestidos{
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 10px;
+    }
 }

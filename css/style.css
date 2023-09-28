@@ -10,15 +10,15 @@ body{
 .inicio{
     margin-left: 100px;
     margin-right: 100px;
-    margin-top: 50px;
+    margin-top: 10px;
     font-family: 'Roboto', sans-serif;
-    border: red solid;
+    
 }
 .encabezado{
     width: 100%;
     position: fixed;
     background-color: rgb(244, 160, 69);
-    border: red solid;
+    
 }
 .carrito{
     display: flex;
@@ -29,7 +29,7 @@ body{
 
 .inicio_2{
     margin-top: 5px;
-    border: red solid;
+    
 }
 
 ul{ 
@@ -46,6 +46,12 @@ nav{
 }
 li{
     float: left;
+}
+.inicio-producto{
+    width: 150px;
+    font-size: medium;
+    font-style: normal;
+
 }
 .articulos{
     padding-top: 200px;
@@ -70,26 +76,31 @@ footer{
     width: 100%;
     display: flex;
     justify-content: space-between ;
+    
 
 }
 .primero{
     display: flex;
     width: 33%;
     justify-content: center;
+    border: red solid;
 }
 .redes{
     margin-right: 16%;
+    border: red solid;
 }
 .segundo{
     display: flex;
     width: 33%;
    
     justify-content: center;
+    border: red solid;
     
 }
 .tercero{
     display: flex;
     width: 33%;
+    border: red solid;
     
     
 }
@@ -130,4 +141,105 @@ footer li{
 .contacto p{
     margin-right: 30px;
 }
+@media (max-width: 767px) {
+    .encabezado{
+        position: relative;
+        width: 400px;
+    }
+    .inicio{
+        flex-direction: column;
+
+    }
+    nav{
+        flex-direction: column;
+        align-items: center;
+    }
+    .articulos{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .articulos article{
+        margin-bottom: 20px;
+    }
+    .video{
+        justify-content: center;
+        height: 250px;
+        width: 270px;
+        margin-left: 47px;
+    }
+    footer{
+        flex-direction: column;
+    }
+    /*footer*/
+.mapa{
+    margin-left: 400px;
+    width: 800px;
+}
+.primero{
+    display: flex;
+    width: 0%;
+    
+    border: red solid;
+}
+.redes{
+    margin-right: 0%;
+    border: red solid;
+}
+.segundo{
+    display: flex;
+    width: 0%;
+   
+    justify-content: center;
+    border: red solid;
+    
+}
+.tercero{
+    display: flex;
+    width: 0%;
+    border: red solid;
+    
+    
+}
+.contacto{
+    margin-right: 0px;
+    
+}
+.m_pago p{
+    text-align: center;
+    
+
+}
+.tarjeta_1{
+    height: 0px;
+}
+.tarjeta_2{
+    height: 0px;
+}
+.tarjeta_3{
+    height: 0px;
+    
+    
+}
+
+footer p{
+    margin-left: 0px;
+    margin-bottom: 0px;
+}
+
+footer ul{ 
+    display: flex;
+    flex-direction: row;
+    justify-content:start;
+}
+footer li{
+    margin-bottom: 0px;
+}
+.contacto p{
+    margin-right: 0px;
+}
+   
+
+  }
 
